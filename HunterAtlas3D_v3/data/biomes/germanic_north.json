@@ -1,0 +1,37 @@
+{
+  "id": "germanic_north",
+  "name": "Germen Kuzey Habitatı",
+  "summary": "Serin, rüzgârlı; kıyı/orman karışımı. Kış sert.",
+  "climate": {
+    "temp_c_avg": 6,
+    "temp_c_min": -20,
+    "temp_c_max": 20,
+    "humidity": 0.65,
+    "wind": 0.6
+  },
+  "resources": {
+    "water": 0.7,
+    "game": 0.5,
+    "edible_plants": 0.35,
+    "wood": 0.7
+  },
+  "hazards": {
+    "predators": 0.35,
+    "parasites": 0.25,
+    "exposure": 0.6
+  },
+  "animals": [
+    {
+      "name": "Geyik",
+      "difficulty": 0.5
+    },
+    {
+      "name": "Yaban Tavşanı",
+      "difficulty": 0.3
+    },
+    {
+      "name": "Kurt (riskli)",
+      "difficulty": 0.75
+    }
+  ]
+}

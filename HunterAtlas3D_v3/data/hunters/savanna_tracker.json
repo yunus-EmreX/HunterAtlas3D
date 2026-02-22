@@ -1,0 +1,55 @@
+{
+  "id": "savanna_tracker",
+  "name": "Savan İz Sürücüsü",
+  "origin": [
+    "Doğu Afrika",
+    "Savan"
+  ],
+  "stats": {
+    "tracking": 0.7,
+    "stealth": 0.5,
+    "endurance": 0.7,
+    "toolcraft": 0.45,
+    "teamwork": 0.55,
+    "cold_resist": 0.35,
+    "heat_resist": 0.75,
+    "risk_tolerance": 0.6
+  },
+  "loadout": {
+    "primary": "Mızrak",
+    "secondary": "Sapan",
+    "tools": [
+      "Su kabı",
+      "Gölge örtüsü",
+      "Basit ilk yardım"
+    ]
+  },
+  "tactics": [
+    {
+      "name": "Takip",
+      "weight": 0.3
+    },
+    {
+      "name": "Pusu",
+      "weight": 0.25
+    },
+    {
+      "name": "Tuzak",
+      "weight": 0.2
+    },
+    {
+      "name": "Doğaçlama",
+      "weight": 0.25
+    }
+  ],
+  "affinity": {
+    "savanna": 0.25,
+    "steppe": 0.05,
+    "rainforest": -0.05,
+    "tundra": -0.15,
+    "taiga": -0.1,
+    "temperate_forest": 0.05,
+    "germanic_north": -0.05,
+    "roman_urban": 0.0
+  }
+}

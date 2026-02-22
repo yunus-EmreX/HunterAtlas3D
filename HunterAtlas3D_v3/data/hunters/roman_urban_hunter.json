@@ -1,0 +1,55 @@
+{
+  "id": "roman_urban_hunter",
+  "name": "Roma Şehirli Avcısı",
+  "origin": [
+    "Roma",
+    "Şehir Devleti"
+  ],
+  "stats": {
+    "tracking": 0.4,
+    "stealth": 0.35,
+    "endurance": 0.55,
+    "toolcraft": 0.55,
+    "teamwork": 0.7,
+    "cold_resist": 0.45,
+    "heat_resist": 0.55,
+    "risk_tolerance": 0.45
+  },
+  "loadout": {
+    "primary": "Kısa Yay",
+    "secondary": "Hançer",
+    "tools": [
+      "Tedarik ağı",
+      "Harita bilgisi",
+      "Organizasyon"
+    ]
+  },
+  "tactics": [
+    {
+      "name": "Takip",
+      "weight": 0.3
+    },
+    {
+      "name": "Pusu",
+      "weight": 0.25
+    },
+    {
+      "name": "Tuzak",
+      "weight": 0.2
+    },
+    {
+      "name": "Doğaçlama",
+      "weight": 0.25
+    }
+  ],
+  "affinity": {
+    "roman_urban": 0.3,
+    "temperate_forest": 0.05,
+    "steppe": -0.05,
+    "savanna": -0.05,
+    "taiga": -0.1,
+    "tundra": -0.1,
+    "rainforest": -0.1,
+    "germanic_north": 0.0
+  }
+}

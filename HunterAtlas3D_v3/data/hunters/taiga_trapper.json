@@ -1,0 +1,55 @@
+{
+  "id": "taiga_trapper",
+  "name": "Taiga Kapan Ustası",
+  "origin": [
+    "Sibirya",
+    "Taiga"
+  ],
+  "stats": {
+    "tracking": 0.6,
+    "stealth": 0.55,
+    "endurance": 0.65,
+    "toolcraft": 0.75,
+    "teamwork": 0.4,
+    "cold_resist": 0.8,
+    "heat_resist": 0.3,
+    "risk_tolerance": 0.5
+  },
+  "loadout": {
+    "primary": "Tüfek öncesi yay",
+    "secondary": "Balta",
+    "tools": [
+      "Kapan seti",
+      "Çelik bıçak",
+      "Ateş seti"
+    ]
+  },
+  "tactics": [
+    {
+      "name": "Takip",
+      "weight": 0.3
+    },
+    {
+      "name": "Pusu",
+      "weight": 0.25
+    },
+    {
+      "name": "Tuzak",
+      "weight": 0.2
+    },
+    {
+      "name": "Doğaçlama",
+      "weight": 0.25
+    }
+  ],
+  "affinity": {
+    "taiga": 0.3,
+    "tundra": 0.1,
+    "temperate_forest": 0.1,
+    "steppe": 0.0,
+    "savanna": -0.15,
+    "rainforest": -0.1,
+    "germanic_north": 0.05,
+    "roman_urban": 0.0
+  }
+}

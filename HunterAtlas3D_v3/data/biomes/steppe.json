@@ -1,0 +1,37 @@
+{
+  "id": "steppe",
+  "name": "Bozkır (Orta Asya Step)",
+  "summary": "Açık arazi; uzun görüş, sert rüzgâr. İz sürme + takip avantajlı.",
+  "climate": {
+    "temp_c_avg": 10,
+    "temp_c_min": -25,
+    "temp_c_max": 35,
+    "humidity": 0.35,
+    "wind": 0.65
+  },
+  "resources": {
+    "water": 0.45,
+    "game": 0.55,
+    "edible_plants": 0.35,
+    "wood": 0.25
+  },
+  "hazards": {
+    "predators": 0.35,
+    "parasites": 0.25,
+    "exposure": 0.65
+  },
+  "animals": [
+    {
+      "name": "Ceylan",
+      "difficulty": 0.45
+    },
+    {
+      "name": "Yaban Tavşanı",
+      "difficulty": 0.3
+    },
+    {
+      "name": "Kurt (riskli)",
+      "difficulty": 0.7
+    }
+  ]
+}

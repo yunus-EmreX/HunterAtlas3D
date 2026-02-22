@@ -1,0 +1,37 @@
+{
+  "id": "savanna",
+  "name": "Afrika Savanı",
+  "summary": "Sıcak, su mevsimsel. Büyük av potansiyeli; yırtıcı riski yüksek.",
+  "climate": {
+    "temp_c_avg": 26,
+    "temp_c_min": 14,
+    "temp_c_max": 40,
+    "humidity": 0.4,
+    "wind": 0.45
+  },
+  "resources": {
+    "water": 0.4,
+    "game": 0.7,
+    "edible_plants": 0.3,
+    "wood": 0.35
+  },
+  "hazards": {
+    "predators": 0.7,
+    "parasites": 0.45,
+    "exposure": 0.55
+  },
+  "animals": [
+    {
+      "name": "Antilop",
+      "difficulty": 0.45
+    },
+    {
+      "name": "Yaban Domuzu",
+      "difficulty": 0.55
+    },
+    {
+      "name": "Aslan (çok riskli)",
+      "difficulty": 0.9
+    }
+  ]
+}

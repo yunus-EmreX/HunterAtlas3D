@@ -1,0 +1,37 @@
+{
+  "id": "roman_urban",
+  "name": "Roma Şehirli (Modernleşmiş)",
+  "summary": "Şehir altyapısı; av yerine organizasyon/tedarik. Risk düşük.",
+  "climate": {
+    "temp_c_avg": 16,
+    "temp_c_min": 2,
+    "temp_c_max": 32,
+    "humidity": 0.55,
+    "wind": 0.3
+  },
+  "resources": {
+    "water": 0.85,
+    "game": 0.25,
+    "edible_plants": 0.4,
+    "wood": 0.15
+  },
+  "hazards": {
+    "predators": 0.1,
+    "parasites": 0.25,
+    "exposure": 0.2
+  },
+  "animals": [
+    {
+      "name": "Kümes Hayvanı",
+      "difficulty": 0.2
+    },
+    {
+      "name": "Fare",
+      "difficulty": 0.15
+    },
+    {
+      "name": "Balık",
+      "difficulty": 0.25
+    }
+  ]
+}

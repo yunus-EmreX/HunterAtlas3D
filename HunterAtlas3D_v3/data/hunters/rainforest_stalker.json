@@ -1,0 +1,55 @@
+{
+  "id": "rainforest_stalker",
+  "name": "Yağmur Ormanı Pusu Avcısı",
+  "origin": [
+    "Amazon",
+    "Kongo"
+  ],
+  "stats": {
+    "tracking": 0.55,
+    "stealth": 0.75,
+    "endurance": 0.6,
+    "toolcraft": 0.55,
+    "teamwork": 0.45,
+    "cold_resist": 0.2,
+    "heat_resist": 0.7,
+    "risk_tolerance": 0.55
+  },
+  "loadout": {
+    "primary": "Üfleme borusu",
+    "secondary": "Bıçak",
+    "tools": [
+      "Bitki bilgisi",
+      "Basit ağ",
+      "Ateş seti"
+    ]
+  },
+  "tactics": [
+    {
+      "name": "Takip",
+      "weight": 0.3
+    },
+    {
+      "name": "Pusu",
+      "weight": 0.25
+    },
+    {
+      "name": "Tuzak",
+      "weight": 0.2
+    },
+    {
+      "name": "Doğaçlama",
+      "weight": 0.25
+    }
+  ],
+  "affinity": {
+    "rainforest": 0.3,
+    "temperate_forest": 0.05,
+    "savanna": -0.05,
+    "steppe": -0.1,
+    "taiga": -0.15,
+    "tundra": -0.2,
+    "germanic_north": -0.1,
+    "roman_urban": 0.0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "taiga",
+  "name": "Sibirya Taigası",
+  "summary": "Soğuk, iğne yapraklı. Tuzak/kapan güçlü; odun bol, maruziyet sert.",
+  "climate": {
+    "temp_c_avg": -2,
+    "temp_c_min": -40,
+    "temp_c_max": 20,
+    "humidity": 0.55,
+    "wind": 0.55
+  },
+  "resources": {
+    "water": 0.55,
+    "game": 0.45,
+    "edible_plants": 0.2,
+    "wood": 0.7
+  },
+  "hazards": {
+    "predators": 0.45,
+    "parasites": 0.25,
+    "exposure": 0.75
+  },
+  "animals": [
+    {
+      "name": "Geyik",
+      "difficulty": 0.5
+    },
+    {
+      "name": "Sincap",
+      "difficulty": 0.25
+    },
+    {
+      "name": "Ayı (riskli)",
+      "difficulty": 0.85
+    }
+  ]
+}

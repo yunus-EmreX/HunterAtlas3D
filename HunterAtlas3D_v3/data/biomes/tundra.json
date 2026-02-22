@@ -1,0 +1,37 @@
+{
+  "id": "tundra",
+  "name": "Buzul/Tundra",
+  "summary": "Çok soğuk, kaynak seyrek. Maruziyet ekstrem; enerji/su kritik.",
+  "climate": {
+    "temp_c_avg": -12,
+    "temp_c_min": -50,
+    "temp_c_max": 10,
+    "humidity": 0.45,
+    "wind": 0.75
+  },
+  "resources": {
+    "water": 0.35,
+    "game": 0.35,
+    "edible_plants": 0.1,
+    "wood": 0.05
+  },
+  "hazards": {
+    "predators": 0.3,
+    "parasites": 0.1,
+    "exposure": 0.9
+  },
+  "animals": [
+    {
+      "name": "Ren Geyiği",
+      "difficulty": 0.55
+    },
+    {
+      "name": "Tilki",
+      "difficulty": 0.35
+    },
+    {
+      "name": "Kutup Ayısı (çok riskli)",
+      "difficulty": 0.95
+    }
+  ]
+}
