@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://hunter_main"]
-
-[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
-
-[node name="HunterAtlas3D" type="Node"]
-script = ExtResource("1_main")
